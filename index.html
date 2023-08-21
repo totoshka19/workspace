@@ -9,14 +9,18 @@
 
 <body>
 
+    <!---------- Header start ---------->
     <header class="header">
         <div class="container header__container">
             <img class="header__logo" src="./img/logo.svg" alt="Логотип Work Space">
             <a class="header__link" href="#vacancies">Посмотреть вакансии</a>
         </div>
     </header>
+    <!---------- Header end ---------->
 
     <main class="main">
+
+        <!---------- Hero start ---------->
         <section class="hero">
             <div class="container hero__container">
                 <h1 class="hero__title">Найди работу
@@ -24,9 +28,12 @@
                 </h1>
             </div>
         </section>
+        <!---------- Hero end ---------->
 
         <div class="vacancies" id="vacancies">
             <div class="container vacancies__container">
+
+                <!---------- Filter start ---------->
                 <section class="vacancies__filter filter">
                     <h2 class="filter__title">Фильтр</h2>
 
@@ -110,21 +117,29 @@
                             </fieldset>
                         </div>
 
-                        <button class="filter__btn">Применить</button>
-                        <button class="filter__btn">Очистить</button>
+                        <div class="filter__buttons">
+                            <button class="filter__button" type="submit">Применить</button>
+                            <button class="filter__reset" type="reset">Очистить</button>
+                        </div>
                     </form>
                 </section>
+                <!---------- Filter end ---------->
 
+                <!---------- Cards start ---------->
                 <section class="vacancies__cards cards">
 
                 </section>
+                <!---------- Cards end ---------->
+
             </div>
         </div>
     </main>
 
+    <!---------- Footer start ---------->
     <footer class="footer">
 
     </footer>
+    <!---------- Footer end ---------->
     
 </body>
 
